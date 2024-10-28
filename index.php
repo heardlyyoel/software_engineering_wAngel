@@ -9,7 +9,7 @@
     <div class="container">
         <h1>Customer Sales Order</h1>
         <p>Welcome to the Customer Sales Order application. This application helps manage and process customer orders efficiently.</p>
-        <p>Choose one of the following options:</p>
+        <p>Choose Feature    :</p>
         
         <div class="buttons">
             <a href="addProduct.php" class="button">Add Product</a>
