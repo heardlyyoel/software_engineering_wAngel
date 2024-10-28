@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    padding: 30px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h2, h3 {
+    color: #ffffff;
+}
+
+label {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+button,
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #00695c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #004d40;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #555;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #333;
+}
+
+.order-summary {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #555;
+}
+
+th {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.product-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-row label,
+.product-row select,
+.product-row input[type="number"] {
+    width: auto;
+}
